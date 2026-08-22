@@ -1,0 +1,15 @@
+[
+  {"query": "收到商品破损怎么处理", "category": "退换货", "expected_ids": ["KB-RETURN-004"]},
+  {"query": "退货后退款什么时候到账", "category": "退换货", "expected_ids": ["KB-RETURN-003"]},
+  {"query": "非质量问题退货运费谁承担", "category": "退换货", "expected_ids": ["KB-RETURN-002"]},
+  {"query": "七天无理由退货政策", "category": "退换货", "expected_ids": ["KB-RETURN-001"]},
+  {"query": "忘记密码如何重置", "category": "账户问题", "expected_ids": ["KB-ACCOUNT-001"]},
+  {"query": "账号被锁定怎么办", "category": "账户问题", "expected_ids": ["KB-ACCOUNT-002"]},
+  {"query": "修改绑定手机号流程", "category": "账户问题", "expected_ids": ["KB-ACCOUNT-003"]},
+  {"query": "软件无法启动怎么排查", "category": "技术咨询", "expected_ids": ["KB-TECH-001"]},
+  {"query": "API接口500错误怎么处理", "category": "技术咨询", "expected_ids": ["KB-TECH-002"]},
+  {"query": "如何获取API Key", "category": "技术咨询", "expected_ids": ["KB-TECH-003"]},
+  {"query": "物流太慢如何投诉", "category": "投诉", "expected_ids": ["KB-COMPLAINT-001"]},
+  {"query": "客服服务态度差的投诉流程", "category": "投诉", "expected_ids": ["KB-COMPLAINT-002"]},
+  {"query": "商品质量问题想要补偿", "category": "投诉", "expected_ids": ["KB-COMPLAINT-003"]}
+]

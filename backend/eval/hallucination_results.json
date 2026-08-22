@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-08-19 08:14:12",
+  "data_dir": "/tmp/ecs_halluc__ldjiq_s",
+  "queries": 13,
+  "measured": 13,
+  "pending": 0,
+  "status": "done",
+  "hallucination_rate": 0.0,
+  "hallucinated": 0,
+  "details": [
+    {
+      "query": "收到商品破损怎么处理",
+      "category": "退换货",
+      "evidence_ids": [
+        "- [KB-RETURN-004",
+        "- [TK-001",
+        "- [KB-RETURN-003"
+      ],
+      "reply": "请在签收后48小时内联系客服，并提供破损照片。核实后，我们会根据破损程度为您安排补发、换货或退款。",
+      "hallucinated": false,
+      "reason": "回复内容与知识库条目完全一致，未包含证据不支持的信息。",
+      "latency_ms": 14682
+    },
+    {
+      "query": "退货后退款什么时候到账",
+      "category": "退换货",
+      "evidence_ids": [
+        "- [TK-001",
+        "- [KB-RETURN-003",
+        "- [KB-RETURN-001"
+      ],
+      "reply": "退款在收到退货并验货后3-5个工作日内原路返回。信用卡支付可能需要7-15个工作日。",
+      "hallucinated": false,
+      "reason": "AI回复内容与证据[KB-RETURN-003]完全一致，未编造事实或与证据冲突。",
+      "latency_ms": 18229
+    },
+    {
+      "query": "非质量问题退货运费谁承担",
+      "category": "退换货",
+      "evidence_ids": [
+        "- [KB-RETURN-002",
+        "- [KB-RETURN-003",
+        "- [TK-001"
+      ],
+      "reply": "非质量问题退货运费由买家承担。建议您购买运费险。",
+      "hallucinated": false,
+      "reason": "AI回复与证据KB-RETURN-002一致，非质量问题退货运费由买家承担。",
+      "latency_ms": 62959
+    },
+    {
+      "query": "七天无理由退货政策",
+      "category": "退换货",
+      "evidence_ids": [
+        "- [KB-RETURN-001",
+        "- [TK-001",
+        "- [KB-RETURN-002"
+      ],
+      "reply": "自签收之日起7天内可申请无理由退货，商品需保持完好（未使用、未清洗、吊牌完整）。特殊商品（如内衣、食品）不支持无理由退货。",
+      "hallucinated": false,
+      "reason": "AI回复内容与证据KB-RETURN-001中的退货政策完全一致，未包含额外事实或矛盾内容。",
+      "latency_ms": 26807
+    },
+    {
+      "query": "忘记密码如何重置",
+      "category": "账户问题",
+      "evidence_ids": [
+        "- [KB-ACCOUNT-001",
+        "- [TK-010",
+        "- [KB-ACCOUNT-002"
+      ],
+      "reply": "在登录页面点击「忘记密码」，输入注册邮箱或手机号接收验证码重置密码。如果收不到验证码，请检查垃圾邮件箱或联系客服人工重置。",
+      "hallucinated": false,
+      "reason": "回复内容完全对应知识库KB-ACCOUNT-001，未发现编造或矛盾信息。",
+      "latency_ms": 33724
+    },
+    {
+      "query": "账号被锁定怎么办",
+      "category": "账户问题",
+      "evidence_ids": [
+        "- [KB-ACCOUNT-002",
+        "- [TK-006",
+        "- [KB-ACCOUNT-001"
+      ],
+      "reply": "账号被锁定通常是因为多次输入错误密码或异地登录导致的。您可以等待30分钟自动解锁，也可以联系客服提供身份验证信息申请立即解锁。建议解锁后修改密码并开启双重验证。",
+      "hallucinated": false,
+      "reason": "AI回复内容均基于提供的知识库和工单证据，没有编造或冲突的事实。",
+      "latency_ms": 24059
+    },
+    {
+      "query": "修改绑定手机号流程",
+      "category": "账户问题",
+      "evidence_ids": [
+        "- [TK-010",
+        "- [KB-ACCOUNT-003",
+        "- [KB-ACCOUNT-001"
+      ],
+      "reply": "您好，修改绑定手机号流程如下：  \n1. 若旧手机号可用：登录后进入「账号设置」-「安全中心」-「修改手机号」，按提示操作。  \n2. 若旧手机号无法接收验证码：需通过人工身份核验（提供身份证信息）申请更换。",
+      "hallucinated": false,
+      "reason": "AI回复内容与证据中的流程一致，未发现编造或矛盾信息。",
+      "latency_ms": 23100
+    },
+    {
+      "query": "软件无法启动怎么排查",
+      "category": "技术咨询",
+      "evidence_ids": [
+        "- [KB-TECH-001",
+        "- [TK-002",
+        "- [TK-005"
+      ],
+      "reply": "请尝试以下排查步骤：1) 以管理员身份运行软件；2) 关闭杀毒软件后重试；3) 确认系统为Win10及以上版本；4) 卸载后重新安装最新版本。如仍无法启动，请收集日志文件联系技术团队。",
+      "hallucinated": false,
+      "reason": "回复内容与证据[KB-TECH-001]完全一致，未包含证据不支持或矛盾的信息。",
+      "latency_ms": 84398
+    },
+    {
+      "query": "API接口500错误怎么处理",
+      "category": "技术咨询",
+      "evidence_ids": [
+        "- [KB-TECH-002",
+        "- [KB-TECH-003",
+        "- [TK-005"
+      ],
+      "reply": "API 返回 500 错误通常是服务端临时问题，请稍后重试。建议实现指数退避重试机制。",
+      "hallucinated": false,
+      "reason": "回复内容与证据一致，未包含证据不支持的信息。",
+      "latency_ms": 40471
+    },
+    {
+      "query": "如何获取API Key",
+      "category": "技术咨询",
+      "evidence_ids": [
+        "- [KB-TECH-003",
+        "- [KB-TECH-002",
+        "- [KB-TECH-001"
+      ],
+      "reply": "登录开发者后台，进入 API 管理页面创建新 Key。创建后请妥善保存，不会再次显示。建议设置 IP 白名单增强安全性，免费额度用完后需充值。",
+      "hallucinated": false,
+      "reason": "AI回复内容与证据KB-TECH-003完全一致，仅措辞略有调整，未包含不支持或矛盾的信息。",
+      "latency_ms": 25155
+    },
+    {
+      "query": "物流太慢如何投诉",
+      "category": "投诉",
+      "evidence_ids": [
+        "- [KB-COMPLAINT-001",
+        "- [TK-007",
+        "- [KB-COMPLAINT-003"
+      ],
+      "reply": "您好，物流延迟超过预计时间，建议您先联系物流公司核实情况。如果物流公司未解决，我们会升级处理并给予补偿（优惠券或积分），投诉处理时效为24小时。",
+      "hallucinated": false,
+      "reason": "回复内容与知识库KB-COMPLAINT-001完全一致，未包含证据不支持的事实。",
+      "latency_ms": 10573
+    },
+    {
+      "query": "客服服务态度差的投诉流程",
+      "category": "投诉",
+      "evidence_ids": [
+        "- [KB-COMPLAINT-002",
+        "- [KB-COMPLAINT-003",
+        "- [TK-007"
+      ],
+      "reply": "对客服服务不满意，可在对话结束后直接评价，或通过官网-帮助中心-投诉建议通道提交投诉。我们将在24小时内回复处理结果，并针对服务态度问题进行内部核查。",
+      "hallucinated": false,
+      "reason": "AI回复内容与证据KB-COMPLAINT-002完全一致，未包含额外数据或矛盾信息。",
+      "latency_ms": 21401
+    },
+    {
+      "query": "商品质量问题想要补偿",
+      "category": "投诉",
+      "evidence_ids": [
+        "- [KB-COMPLAINT-003",
+        "- [TK-007",
+        "- [KB-COMPLAINT-001"
+      ],
+      "reply": "您好，抱歉给您带来不好的体验。请保留原商品及包装，拍摄清晰照片或视频提交至售后。核实后我们会按商品价值全额退款或补发新品，并赠送优惠券作为补偿。",
+      "hallucinated": false,
+      "reason": "AI回复内容与知识库KB-COMPLAINT-003一致，未出现证据不支持的事实。",
+      "latency_ms": 80884
+    }
+  ],
+  "elapsed_seconds": 466.53
+}

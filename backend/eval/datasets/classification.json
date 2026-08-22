@@ -1,0 +1,18 @@
+[
+  {"title": "收到的商品有破损想退货", "description": "收到外包装破损，里面的杯子碎了，想退货退款。", "expected": "退换货"},
+  {"title": "衣服尺码太大想换码", "description": "买的L码外套偏大，吊牌还在，想换M码。", "expected": "退换货"},
+  {"title": "商品颜色与描述不符", "description": "网页显示深蓝，实际收到是浅蓝，想申请换货。", "expected": "退换货"},
+  {"title": "申请七天无理由退货", "description": "商品未使用未清洗，想按无理由退货政策退款。", "expected": "退换货"},
+  {"title": "软件安装后打不开", "description": "下载安装完成后点击图标没有反应，系统是Windows 11。", "expected": "技术咨询"},
+  {"title": "接口返回500错误", "description": "调用 /v1/orders 接口返回500，参数按文档填写的。", "expected": "技术咨询"},
+  {"title": "如何创建API Key", "description": "在开发者后台想创建一个新的API Key。", "expected": "技术咨询"},
+  {"title": "安装时提示权限不足", "description": "安装程序一直提示需要管理员权限，点不开。", "expected": "技术咨询"},
+  {"title": "客服态度非常差", "description": "客服没等我讲完就挂电话，工号1023态度很差。", "expected": "投诉"},
+  {"title": "物流五天了还没到", "description": "下单5天还在运输中，快递停在分拣中心不动。", "expected": "投诉"},
+  {"title": "收到的商品是坏的", "description": "收到商品有明显质量问题，外壳有划痕且无法开机。", "expected": "投诉"},
+  {"title": "账号被锁定了登录不了", "description": "输入正确密码提示账号异常，已经被临时锁定。", "expected": "账户问题"},
+  {"title": "想修改绑定手机号", "description": "旧手机号不用了，想更换成新的手机号。", "expected": "账户问题"},
+  {"title": "忘记密码收不到验证码", "description": "点击忘记密码后一直收不到验证码邮件。", "expected": "账户问题"},
+  {"title": "想修改绑定邮箱", "description": "想换绑邮箱，但原邮箱已经无法访问。", "expected": "账户问题"},
+  {"title": "咨询商品是否有现货", "description": "想问问这款商品现在有没有现货，什么时候发货。", "expected": "其他"}
+]

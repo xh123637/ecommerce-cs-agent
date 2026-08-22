@@ -1,0 +1,7 @@
+<view class="page">
+  <button type="primary" bindtap="onCreate">提交新工单</button>
+  <view wx:for="{{tickets}}" wx:key="id" class="card">
+    <view>{{item.id}} · {{item.title}}</view>
+    <text>{{item.status}} / {{item.category}}</text>
+  </view>
+</view>

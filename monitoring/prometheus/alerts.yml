@@ -1,0 +1,47 @@
+groups:
+  - name: ecommerce-cs-agent
+    rules:
+      - alert: EcommerceBackendDown
+        expr: up{job="ecommerce-backend"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "后端服务不可用"
+          description: "backend 的 /api/metrics 已连续 1 分钟无法抓取。"
+
+      - alert: EcommerceRedisDown
+        expr: up{job="redis-exporter"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Redis 不可用"
+          description: "Redis exporter 已连续 1 分钟无法抓取。"
+
+      - alert: HighAvgLLMLatency
+        expr: ecommerce_agent_avg_latency_ms > 2000
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "LLM 平均延迟过高"
+          description: "当前平均 LLM 延迟为 {{ $value }}ms，超过 2000ms。"
+
+      - alert: HighEscalationRate
+        expr: ecommerce_agent_escalation_rate > 0.6
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "人工转接率过高"
+          description: "当前人工转接率为 {{ $value | humanizePercentage }}，超过 60%，建议复核知识库与分类质量。"
+
+      - alert: LowRlhfAdoption
+        expr: ecommerce_rlhf_adoption_rate < 0.7
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "回复采纳率偏低"
+          description: "RLHF 回复采纳率为 {{ $value | humanizePercentage }}，低于 70%，需人工修正闭环跟进。"

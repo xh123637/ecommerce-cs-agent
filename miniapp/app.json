@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tickets/tickets",
+    "pages/ticket/ticket"
+  ],
+  "window": {
+    "navigationBarTitleText": "电商客服工单",
+    "navigationBarBackgroundColor": "#001529",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

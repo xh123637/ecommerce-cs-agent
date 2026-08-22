@@ -1,0 +1,15 @@
+{"ticket_id": "SIM-015", "prompt": "请处理电商客服工单 SIM-015", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 4, "comment": "", "label": "good"}
+{"ticket_id": "SIM-014", "prompt": "请处理电商客服工单 SIM-014", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 3, "comment": "", "label": "good"}
+{"ticket_id": "SIM-013", "prompt": "请处理电商客服工单 SIM-013", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 5, "comment": "", "label": "good"}
+{"ticket_id": "SIM-012", "prompt": "请处理电商客服工单 SIM-012", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 5, "comment": "", "label": "good"}
+{"ticket_id": "SIM-011", "prompt": "请处理电商客服工单 SIM-011", "chosen": "需人工跟进", "rejected": "", "rating": 4, "comment": "", "label": "good"}
+{"ticket_id": "SIM-010", "prompt": "请处理电商客服工单 SIM-010", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 3, "comment": "", "label": "good"}
+{"ticket_id": "SIM-009", "prompt": "请处理电商客服工单 SIM-009", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。（人工补充：已同步订单备注）", "rejected": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rating": 3, "comment": "", "label": "bad"}
+{"ticket_id": "SIM-008", "prompt": "请处理电商客服工单 SIM-008", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 4, "comment": "", "label": "good"}
+{"ticket_id": "SIM-007", "prompt": "请处理电商客服工单 SIM-007", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 4, "comment": "", "label": "good"}
+{"ticket_id": "SIM-006", "prompt": "请处理电商客服工单 SIM-006", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 5, "comment": "", "label": "good"}
+{"ticket_id": "SIM-005", "prompt": "请处理电商客服工单 SIM-005", "chosen": "需人工跟进", "rejected": "", "rating": 5, "comment": "", "label": "good"}
+{"ticket_id": "SIM-004", "prompt": "请处理电商客服工单 SIM-004", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 4, "comment": "", "label": "good"}
+{"ticket_id": "SIM-003", "prompt": "请处理电商客服工单 SIM-003", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 5, "comment": "", "label": "good"}
+{"ticket_id": "SIM-002", "prompt": "请处理电商客服工单 SIM-002", "chosen": "已为您处理，请留意后续通知；如仍有问题可随时联系。", "rejected": "", "rating": 4, "comment": "", "label": "good"}
+{"ticket_id": "SIM-001", "prompt": "请处理电商客服工单 SIM-001", "chosen": "需人工跟进", "rejected": "", "rating": 3, "comment": "", "label": "good"}

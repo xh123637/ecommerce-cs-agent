@@ -1,0 +1,356 @@
+{
+  "generated_at": "2026-08-19 06:20:18",
+  "data_dir": "/tmp/ecs_eval_3lfswuap",
+  "retrieval": {
+    "top_k": 3,
+    "queries": 13,
+    "recall_at_k": 1.0,
+    "details": [
+      {
+        "query": "收到商品破损怎么处理",
+        "expected": [
+          "KB-RETURN-004"
+        ],
+        "got": [
+          "KB-RETURN-003",
+          "KB-RETURN-004",
+          "TK-001"
+        ],
+        "ok": true
+      },
+      {
+        "query": "退货后退款什么时候到账",
+        "expected": [
+          "KB-RETURN-003"
+        ],
+        "got": [
+          "KB-RETURN-001",
+          "KB-RETURN-003",
+          "TK-001"
+        ],
+        "ok": true
+      },
+      {
+        "query": "非质量问题退货运费谁承担",
+        "expected": [
+          "KB-RETURN-002"
+        ],
+        "got": [
+          "KB-RETURN-002",
+          "KB-RETURN-003",
+          "TK-001"
+        ],
+        "ok": true
+      },
+      {
+        "query": "七天无理由退货政策",
+        "expected": [
+          "KB-RETURN-001"
+        ],
+        "got": [
+          "KB-RETURN-001",
+          "KB-RETURN-002",
+          "TK-001"
+        ],
+        "ok": true
+      },
+      {
+        "query": "忘记密码如何重置",
+        "expected": [
+          "KB-ACCOUNT-001"
+        ],
+        "got": [
+          "KB-ACCOUNT-001",
+          "KB-ACCOUNT-002",
+          "TK-010"
+        ],
+        "ok": true
+      },
+      {
+        "query": "账号被锁定怎么办",
+        "expected": [
+          "KB-ACCOUNT-002"
+        ],
+        "got": [
+          "KB-ACCOUNT-001",
+          "KB-ACCOUNT-002",
+          "TK-006"
+        ],
+        "ok": true
+      },
+      {
+        "query": "修改绑定手机号流程",
+        "expected": [
+          "KB-ACCOUNT-003"
+        ],
+        "got": [
+          "KB-ACCOUNT-001",
+          "KB-ACCOUNT-003",
+          "TK-010"
+        ],
+        "ok": true
+      },
+      {
+        "query": "软件无法启动怎么排查",
+        "expected": [
+          "KB-TECH-001"
+        ],
+        "got": [
+          "KB-TECH-001",
+          "TK-002",
+          "TK-005"
+        ],
+        "ok": true
+      },
+      {
+        "query": "API接口500错误怎么处理",
+        "expected": [
+          "KB-TECH-002"
+        ],
+        "got": [
+          "KB-TECH-002",
+          "KB-TECH-003",
+          "TK-005"
+        ],
+        "ok": true
+      },
+      {
+        "query": "如何获取API Key",
+        "expected": [
+          "KB-TECH-003"
+        ],
+        "got": [
+          "KB-TECH-001",
+          "KB-TECH-002",
+          "KB-TECH-003"
+        ],
+        "ok": true
+      },
+      {
+        "query": "物流太慢如何投诉",
+        "expected": [
+          "KB-COMPLAINT-001"
+        ],
+        "got": [
+          "KB-COMPLAINT-001",
+          "KB-COMPLAINT-003",
+          "TK-007"
+        ],
+        "ok": true
+      },
+      {
+        "query": "客服服务态度差的投诉流程",
+        "expected": [
+          "KB-COMPLAINT-002"
+        ],
+        "got": [
+          "KB-COMPLAINT-002",
+          "KB-COMPLAINT-003",
+          "TK-007"
+        ],
+        "ok": true
+      },
+      {
+        "query": "商品质量问题想要补偿",
+        "expected": [
+          "KB-COMPLAINT-003"
+        ],
+        "got": [
+          "KB-COMPLAINT-001",
+          "KB-COMPLAINT-003",
+          "TK-007"
+        ],
+        "ok": true
+      }
+    ]
+  },
+  "classification": {
+    "samples": 16,
+    "measured": 16,
+    "pending": 0,
+    "status": "done",
+    "accuracy": 0.9375,
+    "avg_confidence": 0.8875,
+    "details": [
+      {
+        "title": "收到的商品有破损想退货",
+        "expected": "退换货",
+        "predicted": "退换货",
+        "confidence": 0.95,
+        "latency_ms": 50554,
+        "ok": true
+      },
+      {
+        "title": "衣服尺码太大想换码",
+        "expected": "退换货",
+        "predicted": "退换货",
+        "confidence": 0.95,
+        "latency_ms": 26910,
+        "ok": true
+      },
+      {
+        "title": "商品颜色与描述不符",
+        "expected": "退换货",
+        "predicted": "退换货",
+        "confidence": 0.95,
+        "latency_ms": 45164,
+        "ok": true
+      },
+      {
+        "title": "申请七天无理由退货",
+        "expected": "退换货",
+        "predicted": "退换货",
+        "confidence": 1.0,
+        "latency_ms": 34241,
+        "ok": true
+      },
+      {
+        "title": "软件安装后打不开",
+        "expected": "技术咨询",
+        "predicted": "技术咨询",
+        "confidence": 0.92,
+        "latency_ms": 6315,
+        "ok": true
+      },
+      {
+        "title": "接口返回500错误",
+        "expected": "技术咨询",
+        "predicted": "技术咨询",
+        "confidence": 0.95,
+        "latency_ms": 7869,
+        "ok": true
+      },
+      {
+        "title": "如何创建API Key",
+        "expected": "技术咨询",
+        "predicted": "技术咨询",
+        "confidence": 0.98,
+        "latency_ms": 24908,
+        "ok": true
+      },
+      {
+        "title": "安装时提示权限不足",
+        "expected": "技术咨询",
+        "predicted": "技术咨询",
+        "confidence": 0.95,
+        "latency_ms": 28690,
+        "ok": true
+      },
+      {
+        "title": "客服态度非常差",
+        "expected": "投诉",
+        "predicted": "投诉",
+        "confidence": 0.95,
+        "latency_ms": 30957,
+        "ok": true
+      },
+      {
+        "title": "物流五天了还没到",
+        "expected": "投诉",
+        "predicted": "投诉",
+        "confidence": 0.8,
+        "latency_ms": 44424,
+        "ok": true
+      },
+      {
+        "title": "收到的商品是坏的",
+        "expected": "投诉",
+        "predicted": "退换货",
+        "confidence": 0.95,
+        "latency_ms": 17400,
+        "ok": false
+      },
+      {
+        "title": "账号被锁定了登录不了",
+        "expected": "账户问题",
+        "predicted": "账户问题",
+        "confidence": 0.95,
+        "latency_ms": 6734,
+        "ok": true
+      },
+      {
+        "title": "想修改绑定手机号",
+        "expected": "账户问题",
+        "predicted": "账户问题",
+        "confidence": 1.0,
+        "latency_ms": 10336,
+        "ok": true
+      },
+      {
+        "title": "忘记密码收不到验证码",
+        "expected": "账户问题",
+        "predicted": "账户问题",
+        "confidence": 0.95,
+        "latency_ms": 15540,
+        "ok": true
+      },
+      {
+        "title": "想修改绑定邮箱",
+        "expected": "账户问题",
+        "predicted": "账户问题",
+        "confidence": 0.95,
+        "latency_ms": 3194,
+        "ok": true
+      },
+      {
+        "title": "咨询商品是否有现货",
+        "expected": "其他",
+        "predicted": "其他",
+        "confidence": 0.0,
+        "latency_ms": 41366,
+        "ok": true
+      }
+    ]
+  },
+  "e2e_auto_solve": {
+    "scenarios": 6,
+    "pending": 0,
+    "status": "done",
+    "auto_solve_rate": 1.0,
+    "details": [
+      {
+        "title": "收到的商品有破损想退货",
+        "needs_human": false,
+        "status": "已解决",
+        "latency_ms": 48442,
+        "log_steps": 4
+      },
+      {
+        "title": "衣服尺码太大想换码",
+        "needs_human": false,
+        "status": "已解决",
+        "latency_ms": 13530,
+        "log_steps": 4
+      },
+      {
+        "title": "商品颜色与描述不符",
+        "needs_human": false,
+        "status": "已解决",
+        "latency_ms": 15517,
+        "log_steps": 4
+      },
+      {
+        "title": "申请七天无理由退货",
+        "needs_human": false,
+        "status": "已解决",
+        "latency_ms": 13206,
+        "log_steps": 4
+      },
+      {
+        "title": "软件安装后打不开",
+        "needs_human": false,
+        "status": "已解决",
+        "latency_ms": 33406,
+        "log_steps": 4
+      },
+      {
+        "title": "接口返回500错误",
+        "needs_human": false,
+        "status": "已解决",
+        "latency_ms": 53070,
+        "log_steps": 4
+      }
+    ]
+  },
+  "elapsed_seconds": 574.4
+}

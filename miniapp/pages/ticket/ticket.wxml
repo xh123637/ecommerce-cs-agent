@@ -1,0 +1,8 @@
+<view class="form">
+  <input placeholder="标题" data-key="title" bindinput="onInput" value="{{form.title}}" />
+  <textarea placeholder="问题描述" data-key="description" bindinput="onInput" value="{{form.description}}" />
+  <picker mode="selector" range="{{['退换货','技术咨询','投诉','账户问题','其他']}}" bindchange="onCategory">
+    <view class="picker">分类：{{form.category}}</view>
+  </picker>
+  <button type="primary" bindtap="onSubmit">提交</button>
+</view>

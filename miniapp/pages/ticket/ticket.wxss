@@ -1,0 +1,14 @@
+.form {
+  display: grid;
+  gap: 24rpx;
+  padding: 30rpx;
+}
+input, textarea {
+  padding: 20rpx;
+  background: #fff;
+  border-radius: 8px;
+}
+.picker {
+  padding: 20rpx;
+  background: #fff;
+}
